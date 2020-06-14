@@ -2,7 +2,7 @@
   "name": "sanitor",
   "version": "1.0.0", 
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "author": "Eduardo Singelo",
   "license": "ISC",
