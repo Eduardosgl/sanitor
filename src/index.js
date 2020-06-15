@@ -15,4 +15,8 @@ server.get("/search-results", (req, res) => {
     res.sendFile(__dirname + "/views/search-results.html")
 } )
 
+server.get("/index3", (req, res) => {
+    res.sendFile(__dirname + "/views/index3.html")
+} )
+
 server.listen(process.env.PORT || 5000)
